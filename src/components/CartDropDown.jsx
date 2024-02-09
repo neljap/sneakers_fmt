@@ -3,6 +3,7 @@ import CartContext from './CartContext'
 import Thumb from "../assets/image-product-1-thumbnail.jpg"
 import {FaShoppingBasket} from "react-icons/fa"
 
+
 const CartDropDown = () => {
   const {count, amount, setCount, setIsOpen} = useContext(CartContext);
 
